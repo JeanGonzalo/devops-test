@@ -1,5 +1,6 @@
 package com.paymentchain.billing;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -17,7 +18,7 @@ public class BasicApplicationTests {
 	public void contextLoads() {
  
 		String meessage="default message cambio 1";
- 
+		Assert.assertNotNull(meessage);
 	}
 
 }
